@@ -1,6 +1,6 @@
 # RH Analytics | Visão geral dos funcionários
 
-Projeto de análise de dados de Recursos Humanos desenvolvido por **Guilho Santos**, com tratamento em **Python no Google Colab**, organização da camada analítica em **PostgreSQL** e visualização no **Power BI**.
+Desenvolvi este projeto de análise de dados de Recursos Humanos para meu portfólio de analista de dados. Realizei o tratamento em **Python no Google Colab**, organizei a camada analítica em **PostgreSQL** e construí a visualização no **Power BI**.
 
 O objetivo é oferecer uma visão geral dos funcionários, reunindo perfil, estrutura organizacional, remuneração, satisfação e desempenho em um dashboard interativo. Os dados são **fictícios**, usados para estudo e portfólio.
 
@@ -38,7 +38,7 @@ Os indicadores abaixo foram recalculados a partir do CSV tratado, considerando *
 
 ## Qualidade e tratamento dos dados
 
-A comparação entre os arquivos recebidos, alinhada por ID_Funcionario, identificou:
+Na comparação entre as bases original e tratada, alinhadas por ID_Funcionario, identifiquei:
 
 | Campo alterado | Registros com diferença |
 |---|---:|
@@ -48,7 +48,7 @@ A comparação entre os arquivos recebidos, alinhada por ID_Funcionario, identif
 
 A base tratada possui 500 IDs únicos, nenhuma linha duplicada e nenhuma ocorrência de desligamento anterior à admissão. Os campos de desligamento estão vazios para os 415 funcionários ativos.
 
-O notebook registra **25/09/2026** como data de referência da limpeza. A reprodução preparada mantém essa data para evitar que os resultados mudem a cada execução. A associação de gênero ao primeiro nome foi uma regra do exercício com dados fictícios; em bases reais, esse atributo deve vir de informação declarada ou de uma fonte validada.
+O notebook registra **25/09/2026** como data de referência da limpeza. A versão disponível para reprodução mantém essa data para evitar que os resultados mudem a cada execução. A associação de gênero ao primeiro nome foi uma regra do exercício com dados fictícios; em bases reais, esse atributo deve vir de informação declarada ou de uma fonte validada.
 
 Veja [metodologia](docs/metodologia.md) e [dicionário de dados](docs/dicionario-dados.md).
 
@@ -61,13 +61,13 @@ Veja [metodologia](docs/metodologia.md) e [dicionário de dados](docs/dicionario
 | vw_rh_performance | Desempenho, satisfação e treinamento |
 | vw_rh_remuneracao | Salários e variação salarial absoluta e percentual |
 
-As quatro VIEWs fornecidas estão em [sql/03_views.sql](sql/03_views.sql). A página Visão Geral utiliza campos de vw_rh_funcionarios, conforme a definição do relatório no PBIX. O nome vw_rh_turnover identifica uma seleção de desligados, sem calcular por si só o indicador de turnover.
+As quatro VIEWs do projeto estão em [sql/03_views.sql](sql/03_views.sql). A página Visão Geral utiliza campos de vw_rh_funcionarios, conforme a definição do relatório no PBIX. O nome vw_rh_turnover identifica uma seleção de desligados, sem calcular por si só o indicador de turnover.
 
 ## Organização do repositório
 
 | Pasta | Conteúdo |
 |---|---|
-| dados/originais | Excel recebido, preservado |
+| dados/originais | Base original em Excel |
 | dados/tratados | CSV utilizado na análise |
 | notebooks | Notebook original e versão organizada para reproduzir a limpeza |
 | sql | Tabela, importação, VIEWs e consultas de validação |
@@ -81,7 +81,7 @@ As quatro VIEWs fornecidas estão em [sql/03_views.sql](sql/03_views.sql). A pá
 
 Abra [notebooks/01_limpeza_rh.ipynb](notebooks/01_limpeza_rh.ipynb) no Colab e execute as células em ordem. Envie o Excel de dados originais quando solicitado. A execução exporta um CSV separado por ponto e vírgula, em UTF-8, na ordem original das colunas.
 
-O [notebook original](notebooks/Portfolio_RH_original.ipynb) foi preservado como evidência da etapa realizada. A versão organizada contém somente a rotina principal, com data fixa e exportação CSV. Não altera o CSV entregue pelo autor.
+O [notebook original](notebooks/Portfolio_RH_original.ipynb) registra o tratamento que realizei no Google Colab. O repositório também inclui uma versão organizada da rotina principal, com data fixa e exportação CSV, para facilitar a reprodução. O CSV usado na análise permanece disponível em `dados/tratados`.
 
 Para recalcular os indicadores localmente, na raiz do projeto:
 
@@ -100,7 +100,7 @@ O CSV usa `;`, decimais com ponto, cabeçalho e campos vazios para NULL. Os nome
 
 Abra `dashboard/RH.pbix` no Power BI Desktop. Ajuste a conexão PostgreSQL para seu servidor e banco nas configurações da fonte de dados, informe suas credenciais e atualize. Os valores exibidos dependem dos filtros selecionados.
 
-O PBIX contém uma página chamada **Visão Geral**. Nenhum link público do relatório foi fornecido; a imagem acima permite consultar o resultado no próprio repositório.
+O dashboard contém uma página chamada **Visão Geral**. A prévia está disponível na imagem acima, e o arquivo editável do Power BI está em [dashboard/RH.pbix](dashboard/RH.pbix).
 
 ## Ferramentas e competências demonstradas
 
@@ -110,7 +110,7 @@ O PBIX contém uma página chamada **Visão Geral**. Nenhum link público do rel
 - Power BI: agregações, visualizações e filtros interativos.
 - Documentação: rastreabilidade do fluxo e explicação dos indicadores.
 
-## Autor
+## Sobre mim
 
 **Guilho Santos** — [GitHub](https://github.com/GU1LHO)
 

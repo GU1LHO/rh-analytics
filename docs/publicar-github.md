@@ -1,16 +1,18 @@
-# Publicar no GitHub
+# Publicação e apresentação no GitHub
 
-Nome sugerido: **rh-analytics**
+Este projeto faz parte do meu portfólio de analista de dados e está disponível no repositório público [GU1LHO/rh-analytics](https://github.com/GU1LHO/rh-analytics).
 
-Descrição sugerida: Análise de RH com dados fictícios: limpeza em Python/Google Colab, VIEWs no PostgreSQL e dashboard no Power BI.
+## Apresentação do projeto
 
-Tópicos sugeridos: `python`, `pandas`, `postgresql`, `sql`, `powerbi`, `data-cleaning`, `data-analysis`, `hr-analytics`, `portfolio`.
+O README reúne o objetivo, o fluxo de trabalho, os principais resultados e as instruções de reprodução. A imagem do dashboard permite consultar a prévia do relatório no GitHub, e o arquivo editável do Power BI está em `dashboard/RH.pbix`.
 
-1. Extraia o ZIP e abra a pasta rh-analytics.
-2. No seu perfil GitHub, crie um novo repositório chamado rh-analytics. Para apresentá-lo no portfólio, escolha Public.
-3. Em um repositório vazio, use a opção de enviar arquivos existentes. Arraste o conteúdo da pasta rh-analytics, incluindo as subpastas. O README.md deve ficar na raiz do repositório.
-4. Confira os arquivos e faça o commit com a mensagem: Adiciona projeto RH Analytics.
-5. Adicione a descrição e os tópicos nas configurações de apresentação do repositório.
-6. Confira se a imagem do dashboard aparece no README e fixe o projeto no seu perfil.
+Descrição do projeto: Análise de Recursos Humanos com Python, PostgreSQL e Power BI. Projeto de portfólio com dados fictícios.
 
-O pacote está pronto para envio. Ele não foi publicado automaticamente na conta GitHub. Quando houver um link público do Power BI, adicione-o ao README.
+Tópicos sugeridos para facilitar a descoberta: `python`, `pandas`, `google-colab`, `postgresql`, `sql`, `powerbi`, `data-cleaning`, `data-analysis`, `hr-analytics`, `portfolio`.
+
+## Manutenção
+
+- Manter o README e a documentação alinhados às alterações do projeto.
+- Conferir os caminhos dos arquivos e a exibição da imagem do dashboard.
+- Registrar novas análises e limitações junto dos respectivos resultados.
+- Caso o relatório seja publicado no Power BI, acrescentar o link ao README.

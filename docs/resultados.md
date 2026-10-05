@@ -1,6 +1,6 @@
 # Resultados da análise
 
-Fonte: CSV tratado recebido do autor, 500 linhas e 29 colunas. Todos os resultados usam a base completa, salvo indicação explícita. Não foram aplicados filtros de departamento, modalidade ou status.
+Fonte: base tratada do projeto, disponível em `dados/tratados/dataset_rh_dashboard-limpo.csv`, com 500 linhas e 29 colunas. Todos os resultados usam a base completa, salvo indicação explícita. Não foram aplicados filtros de departamento, modalidade ou status.
 
 ## Perfil e estrutura
 
@@ -18,7 +18,7 @@ O salário médio geral é R$ 6.434,50. Entre os 415 ativos, a média é R$ 6.44
 
 Tecnologia tem o maior salário médio departamental (R$ 8.588,49), enquanto Logística apresenta R$ 5.133,33. Comparações salariais precisam considerar cargo, nível e composição dos grupos antes de orientar decisões.
 
-A satisfação média é 3,062 (3,06 na apresentação) e o desempenho médio é 3,5526 (3,55). As escalas e critérios de classificação não foram fornecidos; portanto, esses valores não são classificados como bons ou ruins. A média de horas de treinamento registradas é 25,15, sem período de apuração informado.
+A satisfação média é 3,062 (3,06 na apresentação) e o desempenho médio é 3,5526 (3,55). As escalas e os critérios de classificação não estão documentados na base; portanto, esses valores não são classificados como bons ou ruins. A média de horas de treinamento registradas é 25,15, sem período de apuração informado.
 
 ## Admissões e desligamentos
 
@@ -28,6 +28,6 @@ Entre os 85 desligados, os motivos registrados são: Desempenho (21), Mudança d
 
 ## Conclusões para o portfólio
 
-O projeto consolida informações de RH em um fluxo de preparação, consulta e visualização. A visão geral permite explorar a composição do cadastro, filtrar grupos e acompanhar salários, satisfação e desempenho.
+Neste projeto, reuni informações de RH em um fluxo de preparação, consulta e visualização. A visão geral permite explorar a composição do cadastro, filtrar grupos e acompanhar salários, satisfação e desempenho.
 
-Uma evolução útil seria acrescentar indicadores apenas dos ativos, apuração de turnover por período e documentação das escalas de avaliação. Não há evidência suficiente para atribuir desligamentos a salário, treinamento ou satisfação.
+Como próximos passos, o projeto pode incorporar indicadores apenas dos ativos, apuração de turnover por período e documentação das escalas de avaliação. Não há evidência suficiente para atribuir desligamentos a salário, treinamento ou satisfação.
