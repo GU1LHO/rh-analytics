@@ -2,9 +2,38 @@
 
 Desenvolvi este projeto de análise de dados de Recursos Humanos para meu portfólio de analista de dados. Realizei o tratamento em **Python no Google Colab**, organizei a camada analítica em **PostgreSQL** e construí a visualização no **Power BI**.
 
-O objetivo é oferecer uma visão geral dos funcionários, reunindo perfil, estrutura organizacional, remuneração, satisfação e desempenho em um dashboard interativo. Os dados são **fictícios**, usados para estudo e portfólio.
+Os dados são **fictícios**, usados para estudo e portfólio.
 
 ![Dashboard RH Analytics](dashboard/imagens/visao-geral.png)
+
+## Contexto do negócio
+
+O projeto simula o cenário de uma organização cuja área de Recursos Humanos precisa reunir informações sobre o perfil dos funcionários, a distribuição entre departamentos e níveis profissionais, as modalidades de trabalho e os indicadores de remuneração, satisfação e desempenho.
+
+Nesse cenário, a necessidade de negócio é oferecer uma visão integrada do cadastro para apoiar o planejamento do quadro de pessoal e identificar grupos que merecem investigação mais detalhada. A análise permite explorar diferenças entre áreas e modalidades de trabalho e distinguir funcionários ativos de registros históricos de desligados.
+
+Esse contexto orienta o exercício de portfólio; não descreve um diagnóstico ou uma demanda comprovada de uma empresa real.
+
+## Objetivo da análise
+
+Construir uma visão geral interativa dos funcionários no Power BI, a partir de dados tratados em Python e organizados no PostgreSQL, para explorar a composição do cadastro e acompanhar indicadores de remuneração, satisfação e desempenho. Os filtros de departamento, modalidade e status permitem comparar recortes e analisar o quadro ativo separadamente do histórico de desligados.
+
+## Perguntas de negócio
+
+1. **Como o cadastro se divide entre funcionários ativos e desligados?**  
+   Quantificar cada grupo e sua participação na base, distinguindo o quadro ativo dos registros históricos.
+2. **Como os funcionários estão distribuídos entre departamentos, níveis profissionais e modalidades de trabalho?**  
+   Identificar concentrações na estrutura organizacional e apoiar a avaliação da composição do quadro, considerando o status selecionado.
+3. **Qual é o perfil dos funcionários em termos de idade, gênero registrado e tempo de empresa?**  
+   Descrever a composição da base e contextualizar a análise dos diferentes grupos.
+4. **Qual é o salário médio e como ele varia entre departamentos?**  
+   Explorar diferenças de remuneração, considerando que cargo, nível e composição dos grupos precisam ser avaliados antes de orientar decisões.
+5. **Quais são as médias registradas de satisfação e desempenho, e como elas variam nos recortes disponíveis?**  
+   Identificar diferenças que merecem investigação, sem classificar as notas como boas ou ruins enquanto as escalas não estiverem documentadas.
+6. **Como as admissões se distribuem ao longo dos anos?**  
+   Identificar os anos com maior volume de entradas, considerando que 2026 é parcial e não deve ser comparado diretamente com anos completos.
+
+As perguntas têm caráter descritivo. A proporção de desligados não equivale a uma taxa de turnover por período, e as comparações não demonstram causas para desligamentos ou diferenças entre grupos. Os limites de interpretação estão detalhados em [resultados e limitações](docs/resultados.md).
 
 ## Fluxo do projeto
 
