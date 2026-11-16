@@ -143,6 +143,6 @@ O dashboard contém uma página chamada **Visão Geral**. A prévia está dispon
 
 ## Sobre mim
 
-**Guilho Santos** — [GitHub](https://github.com/GU1LHO)
+**Autor:** [Guilherme F. Santos · GU1LHO](https://github.com/GU1LHO)
 
 Projeto de portfólio com dados fictícios. As conclusões descrevem esta base simulada e não uma organização real.
