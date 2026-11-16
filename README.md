@@ -4,6 +4,8 @@ Desenvolvi este projeto de análise de dados de Recursos Humanos para meu portf�
 
 Os dados são **fictícios**, usados para estudo e portfólio.
 
+🔗 **[Acessar dashboard interativo no Power BI](https://app.powerbi.com/view?r=eyJrIjoiZjQ4YzdjOTQtMGY3Zi00ZDNmLWE2ZTctOTFjOWU2MGMwNTEwIiwidCI6IjdiNzZjYWM5LTBkYTQtNGNmZC1hZWY1LWEyNDgyNDI5NmYyMiJ9)**
+
 ![Dashboard RH Analytics](dashboard/imagens/visao-geral.png)
 
 ## Contexto do negócio
