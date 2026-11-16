@@ -28,7 +28,7 @@ Construir uma visão geral interativa dos funcionários no Power BI, a partir de
    Identificar concentrações na estrutura organizacional e apoiar a avaliação da composição do quadro, considerando o status selecionado.
 3. **Qual é o perfil dos funcionários em termos de idade, gênero registrado e tempo de empresa?**  
    Descrever a composição da base e contextualizar a análise dos diferentes grupos.
-4. **Qual é o salário médio e como ele varia entre departamentos?**  
+4. **Qual é o salário médio?**  
    Explorar diferenças de remuneração, considerando que cargo, nível e composição dos grupos precisam ser avaliados antes de orientar decisões.
 5. **Quais são as médias registradas de satisfação e desempenho, e como elas variam nos recortes disponíveis?**  
    Identificar diferenças que merecem investigação, sem classificar as notas como boas ou ruins enquanto as escalas não estiverem documentadas.
